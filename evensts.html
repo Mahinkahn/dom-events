@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event management Company</title>
+</head>
+<body>
+    <h1 onclick="handleClick()">Exploring Events</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam adipisci perferendis, eveniet dignissimos temporibus impedit perspiciatis pariatur, nihil, obcaecati aspernatur iste officia quia necessitatibus sit! Consequuntur non ad, enim vitae est dolore! Animi blanditiis, dolorem nulla nihil ipsam explicabo, repudiandae eveniet facilis itaque voluptates provident vitae molestias et? Ducimus, ipsam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p>Quibusdam commodi aliquam repudiandae eaque ad tempora.</p>
+    <p>Nulla ipsa ducimus quisquam nemo ad modi!</p>
+    <button>Cilck me-0</button>
+    <button id="second">Cilck me-1</button>
+    <button>Cilck me-2</button>
+    <button id="lastPerson">Cilck me-3</button> 
+
+    <script>
+        document.getElementById('lastPerson').addEventListener('click', function(){
+            document.body.style.color = 'tomato';
+        })
+
+ 
+
+    //     function handleClick(){
+    //          document.body.style.backgroundColor = 'tomato';
+    //     }
+
+    //    const secondButton = document.getElementById('second');
+    //    secondButton.addEventListener('click', handleClick);
+    //    secondButton.onClick = handleClick;
+    </script>
+    
+
+    <!-- <script>
+        function handleClick() {
+            console.log(new Date())
+        }
+    </script> -->
+</body>
+</html>
